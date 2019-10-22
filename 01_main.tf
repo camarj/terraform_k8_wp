@@ -1,7 +1,7 @@
 resource "digitalocean_kubernetes_cluster" "camarj" {
-  name ="camarj"
+  name = "camarj"
   region = "nyc1"
-  version= "1.15.4-do.0"
+  version = "1.14.8-do.0"
 
   node_pool {
       name = "camarj-nodes"

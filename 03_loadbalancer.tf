@@ -1,5 +1,5 @@
 resource "digitalocean_loadbalancer" "public" {
-  name = "loadbalancer-2"
+  name = "loadbalancer-1"
   region = "nyc1"
 
   forwarding_rule {
